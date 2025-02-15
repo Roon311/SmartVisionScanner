@@ -8,7 +8,8 @@ import openai
 # Additional imports for image display
 from io import BytesIO
 
-
+google_api= 'ToDo'
+gpt_api_key= 'ToDo' 
 
 def formatInput(detected_texts):
   textconc=''
