@@ -8,8 +8,8 @@ import openai
 # Additional imports for image display
 from io import BytesIO
 
-google_api = "YOUR_GOOGLE_VISION_API_KEY"
-gpt_api_key = "YOUR_OPENAI_API_KEY"
+google_api = st.secrets["google_api"]
+gpt_api_key = st.secrets["gpt_api_key"]
 
 def formatInput(detected_texts):
   textconc=''
